@@ -4,7 +4,7 @@ SDET Task 2021
 # Setup And Usage
 1. Install mongodb
 2. Install python 3.6+
-3. Create virtual environment as documented [here|https://docs.python.org/3/library/venv.html]
+3. Create virtual environment as documented [here](https://docs.python.org/3/library/venv.html)
 4. Install dependencies: `./venv/bin/pip install -r requirements.txt`
 5. Set mongo credentials at `src/db_adapter/DBAdapter.py`.
 5. Run API server: `env FLASK_APP=src/API.py ./venv/bin/flask run`
