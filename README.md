@@ -10,7 +10,7 @@ SDET Task 2021
 5. Run API server: `env FLASK_APP=src/API.py ./venv/bin/flask run`
 
 # Routes
-1. `GET localhost:5000/customer/_all`
+1. `GET localhost:5000/customers/_all`
    * Display a list of all customers ids
 2. `GET localhost:5000/customers/<id>`, where id is customer id
    * Customer information.
